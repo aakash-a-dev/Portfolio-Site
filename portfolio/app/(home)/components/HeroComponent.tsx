@@ -1,3 +1,5 @@
+
+import { MovingBorderBtn } from '@/component/ui/moving-border'
 import Link from 'next/link'
 import React from 'react'
 
@@ -33,6 +35,12 @@ export default function HeroComponent() {
                   </div>
                   <div className="glow absolute top-[40%] right-1/2 -z-10"></div>
               </div>
+                  <MovingBorderBtn
+        borderRadius="1.75rem"
+        className="bg-white dark:bg-slate-900 text-black dark:text-white border-neutral-200 dark:border-slate-800"
+      >
+        Borders are cool
+      </MovingBorderBtn>
           </div>
     </div>
   )
