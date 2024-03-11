@@ -23,7 +23,7 @@ export default function HeroComponent() {
              </div>
               </Link>
           </div>
-          <div>
+          <div className="relative">
               <div className='w-72 h-72 space-y-3 -rotate-[30deg] relative'>
                 <div className='flex gap-3 translate-x-8'>
                   <div className='w-32 h-32 rounded-2xl bg-blue-500'></div>
@@ -35,9 +35,11 @@ export default function HeroComponent() {
                   </div>
                   <div className="glow absolute top-[40%] right-1/2 -z-10"></div>
               </div>
+              <div className="absoulte bottom-5 sm:bottom-14 left-0 sm:-left-10">
                   <MovingBorderBtn borderRadius='0.5rem' className='p-3'>
-        Open For Work
-      </MovingBorderBtn>
+       🚀 Available to Work
+                  </MovingBorderBtn>
+                  </div>
           </div>
     </div>
   )
