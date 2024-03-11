@@ -81,7 +81,7 @@ const config = {
       },
     },
   },
-  plugins: [require("tailwindcss-animate"), addVariablesForColors,    function ({ matchUtilities, theme }: any) {
+  plugins: [require("tailwindcss-animate"),  function ({ matchUtilities, theme }: any) {
       matchUtilities(
         {
           "bg-grid": (value: any) => ({
@@ -102,7 +102,7 @@ const config = {
         },
         { values: flattenColorPalette(theme("backgroundColor")), type: "color" }
       );
-    },],
+    }, addVariablesForColors],
 } satisfies Config
 
 function addVariablesForColors({ addBase, theme }: any) {
