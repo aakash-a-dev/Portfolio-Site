@@ -1,14 +1,13 @@
 
 import React from 'react'
 import Link from 'next/link';
+import Navbar from './Navbar';
 
 export default function Footer() {
   return (
-      <div className='justify-end items-center'>
-          <div className=''>
-              <p className='text-center'>Made with ❤️ By <span><Link href="https://www.linkedin.com/in/aakash-a-rajput/">AAKASH AMOD RAJPUT</Link></span> </p>
-              </div>
-        </div>
+    <div className="border-t mt-10">
+      <Navbar className='flex-col gap-5' />
+    </div>
     
   )
 }

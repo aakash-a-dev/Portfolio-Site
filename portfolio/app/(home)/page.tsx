@@ -20,13 +20,9 @@ export default function page() {
         
     <div className='max-w-7xl mx-auto p-5 mt-20'>
         <Skills />
-      <Projects />
-        
-      </div>
-  
-      <div className='max-w-7xl mx-auto p-5 mt-20 bg-slate-900'>
+        <Projects />
         <Footer />
-       </div> 
+      </div>
       </div>
   )
 }
