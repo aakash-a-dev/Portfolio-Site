@@ -1,5 +1,6 @@
 import React from 'react'
 import { SiAuth0, SiLaravel, SiMongodb, SiNodedotjs, SiPostgresql, SiReact } from 'react-icons/si'
+import Title from './Title'
 
 export default function Projects() {
     const Project = [
@@ -27,6 +28,8 @@ export default function Projects() {
 
     ]
   return (
-    <div>Projects</div>
+      <div className='py-10 p-5 sm:p-0'>
+          <Title text='Projects🚀' className='flex flex-col items-center justify-center -rotate-6'/>
+    </div>
   )
 }
