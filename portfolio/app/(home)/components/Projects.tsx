@@ -1,6 +1,8 @@
 import React from 'react'
 import { SiAuth0, SiLaravel, SiMongodb, SiNodedotjs, SiPostgresql, SiReact } from 'react-icons/si'
 import Title from './Title'
+import Link from 'next/link'
+import { cn } from '@/lib/utils'
 
 export default function Projects() {
     const Project = [
@@ -29,7 +31,14 @@ export default function Projects() {
     ]
   return (
       <div className='py-10 p-5 sm:p-0'>
-          <Title text='Projects🚀' className='flex flex-col items-center justify-center -rotate-6'/>
+          <Title text='Projects🚀' className='flex flex-col items-center justify-center -rotate-6' />
+          <div className="grid grid-cols-2 sm:grid-cols-2 pt-20">
+              {Project.map((project, index) => {
+                  return <Link href={project.link} key={index}>
+                      <div className={cn("p-5 rounded-md", project.background)}></div>
+                  </Link>
+              })}
+          </div>
     </div>
   )
 }
