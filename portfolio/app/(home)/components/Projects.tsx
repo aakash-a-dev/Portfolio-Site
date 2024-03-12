@@ -3,6 +3,7 @@ import { SiAuth0, SiLaravel, SiMongodb, SiNodedotjs, SiPostgresql, SiReact } fro
 import Title from './Title'
 import Link from 'next/link'
 import { cn } from '@/lib/utils'
+import { DirectionAwareHover } from '@/components/ui/direction-aware-hover'
 
 export default function Projects() {
     const Project = [
@@ -35,7 +36,11 @@ export default function Projects() {
           <div className="grid grid-cols-2 sm:grid-cols-2 pt-20">
               {Project.map((project, index) => {
                   return <Link href={project.link} key={index}>
-                      <div className={cn("p-5 rounded-md", project.background)}></div>
+                      <div className={cn("p-5 rounded-md", project.background)}>
+                          <DirectionAwareHover imageUrl={project.cover}>
+                              <h1>{project.title}</h1>
+                          </DirectionAwareHover>
+                      </div>
                   </Link>
               })}
           </div>
