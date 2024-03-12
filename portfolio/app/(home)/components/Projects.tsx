@@ -37,7 +37,7 @@ export default function Projects() {
               {Project.map((project, index) => {
                   return <Link href={project.link} key={index}>
                       <div className={cn("p-5 rounded-md", project.background)}>
-                          <DirectionAwareHover imageUrl={project.cover}>
+                          <DirectionAwareHover imageUrl={project.cover} className='w-full space-y-5 cursor-pointer'>
                               <h1>{project.title}</h1>
                           </DirectionAwareHover>
                       </div>
