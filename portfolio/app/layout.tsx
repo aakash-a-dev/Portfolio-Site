@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react';
 import type { Metadata } from "next";
 import { Space_Grotesk } from "next/font/google";
 import "./globals.css";
@@ -27,7 +28,8 @@ export default function RootLayout({
             disableTransitionOnChange
           >
           {children}
-          </ThemeProvider>
+        </ThemeProvider>
+        <Analytics />
       </body>
     </html>
   );
