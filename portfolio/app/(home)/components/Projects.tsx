@@ -33,7 +33,7 @@ export default function Projects() {
   return (
       <div className='py-10 p-5 sm:p-0'>
           <Title text='Projects🚀' className='flex flex-col items-center justify-center -rotate-6' />
-          <div className="grid grid-cols-2 sm:grid-cols-2 pt-20 gap-5">
+          <div className="grid grid-cols-1 sm:grid-cols-2 pt-20 gap-5">
               {Project.map((project, index) => {
                   const Icon = project.tech;
                   return <Link href={project.link} key={index}>
