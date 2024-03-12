@@ -8,18 +8,18 @@ import { DirectionAwareHover } from '@/components/ui/direction-aware-hover'
 export default function Projects() {
     const Project = [
         {
-            title: "Kresoon Social",
-            tech: [SiLaravel, SiPostgresql, SiAuth0],
+            title: "Krescon Social",
+            tech: [SiLaravel, SiPostgresql, SiReact],
             link: "https://krescon.social/",
             cover: "/Krescon.png",
-            background: "bg-purple-500"
+            background: "bg-blue-500"
         },
          {
             title: "AI Automated Attendance System",
             tech: [SiNodedotjs, SiReact],
             link: "https://chimerical-taffy-43d337.netlify.app/",
             cover: "/Attendance.png",
-            background: "bg-blue-500"
+            background: "bg-purple-500"
         },
           {
             title: "Dummy Money Transaction System",
@@ -39,12 +39,14 @@ export default function Projects() {
                   return <Link href={project.link} key={index}>
                       <div className={cn("p-5 rounded-md", project.background)}>
                           <DirectionAwareHover imageUrl={project.cover} className='w-full space-y-5 cursor-pointer'>
-                              <h1>{project.title}</h1>
+                              <div className='space-y-5'>
+                              <h1 className='text-2xl font-bold'>{project.title}</h1>
                               <div className='flex items-center gap-5'>
                                   {project.tech.map((Icon, index) => {
-                                      return <Icon key={index} />
+                                      return <Icon className='w-8 h-8' key={index} />
                                   })}
-                              </div>
+                                  </div>
+                                  </div>
                           </DirectionAwareHover>
                       </div>
                   </Link>
