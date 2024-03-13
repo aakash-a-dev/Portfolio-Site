@@ -10,7 +10,7 @@ export default function Timeline() {
         <div className="pt-8 flex justify-center items-center">
       <TextRevealCard
         text="You know the business"
-        revealText="I know the chemistry "
+        revealText="I know the chemistry"
       >
         <TextRevealCardTitle>
           Why me?
