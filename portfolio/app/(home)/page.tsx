@@ -5,6 +5,7 @@ import { MovingBorderBtn } from '@/components/ui/MovingBorderBtn'
 import Skills from './components/Skills'
 import Footer from './components/Footer'
 import Projects from './components/Projects'
+import Timeline from './components/Timeline'
 
 export default function page() {
   return (
@@ -21,6 +22,7 @@ export default function page() {
     <div className='max-w-7xl mx-auto p-5 mt-20'>
         <Skills />
         <Projects />
+        <Timeline/>
         <Footer />
       </div>
       </div>
