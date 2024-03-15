@@ -19,3 +19,21 @@ const Circle = () => {
     </>
   )
 }
+
+const Pillar = () => {
+  return (
+    
+      <div className='rounded-t-full rounded-b-full w-2 h-full bg-blue-500 mx-auto'></div>
+    
+  )
+}
+
+const EventCard = ({ heading, subheading } :{ heading: string, subheading:string}) =>{
+  return (
+    <div className='flex flex-col gap-y-2 border shadow-md rounded-xl p-4'>
+      <div className='text-blue-500 font-bold text-lg border-b '>{heading}</div>
+      <div className='text-sm text-white'>{subheading}</div>
+
+  </div>
+  )
+}
