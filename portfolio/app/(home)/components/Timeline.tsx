@@ -22,9 +22,9 @@ export default function Timeline() {
   return (
     <>
       <div className='py-16 p-5 sm:p-0'>
-        <Title text='My Experience🤺  ' className='flex flex-col items-center justify-center -rotate-6' />
+        <Title text='Experience🤺' className='flex flex-col items-center justify-center -rotate-6' />
         </div>
-    <div className='py-16 p-5 sm:p-0 mt-5'>
+    <div className=' p-5 sm:p-0 mt-2'>
 
          <ol  className="relative border-s border-gray-200 dark:border-gray-700">                  
         {Jobs.map((job, key) => (

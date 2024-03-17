@@ -22,7 +22,7 @@ export default function page() {
     <div className='max-w-7xl mx-auto p-5 mt-20'>
         <Skills />
         <Projects />
-        <div className='max-w-7xl mx-auto p-5 mt-5'>
+        <div className='max-w-7xl mx-auto sm:p-0 lg:p-5'>
           <Timeline />
           </div>
         <Footer />
