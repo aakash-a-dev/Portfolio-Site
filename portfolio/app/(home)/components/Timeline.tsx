@@ -3,6 +3,8 @@ import Title from './Title'
 import { TextRevealCard, TextRevealCardDescription, TextRevealCardTitle } from '@/components/ui/text-reveal-card'
 
 
+
+export default function Timeline() {
   const events = [
     {
       company: "Boostr Technology",
@@ -21,8 +23,6 @@ import { TextRevealCard, TextRevealCardDescription, TextRevealCardTitle } from '
     },
 
   ]
-export default function Timeline({ events }: { events: any }) {
-
     return (
         <>
             <div className='max-w-5xl mx-auto px-8 pt-8 '>
@@ -40,6 +40,7 @@ export default function Timeline({ events }: { events: any }) {
                   )
                 }
               </div>
+              {key < (events.length - 1 && <Circle/> )}}
             </Fragment>
           })}
           <Circle/>
