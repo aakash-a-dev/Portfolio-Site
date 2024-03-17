@@ -32,11 +32,10 @@ export default function Timeline() {
                 <div className="w-5 h-5 bg-blue-600 absolute -left-10 transform -translate-x-2/4 rounded-full z-10 mt-2 md:mt-0"></div>
                 <div className="w-10 h-1 bg-blue-300 absolute -left-10 z-0"></div>
                 <div className="flex-auto">
-                  <h1 className="text-lg">{job.time }</h1>
-                  <h1 className="text-xl font-bold">{job.profile}</h1>
-                  <h3>{job.company}</h3>
+                  <h1 className="text-lg">⌛ {job.time }</h1>
+                  <h1 className="text-xl font-bold">👨🏼‍💻 {job.profile}</h1>
+                  <h3>🏢 {job.company}</h3>
                 </div>
-                
               </div>
             ))}
           </div>
