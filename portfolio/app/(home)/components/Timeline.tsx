@@ -24,8 +24,8 @@ export default function Timeline() {
       <div className='py-16 p-5 sm:p-0'>
         <Title text='Experience🤺' className='flex flex-col items-center justify-center -rotate-6' />
       </div>
-      <div className='p-5 sm:p-0 mt-2'>
-        <div className=" mx-auto relative py-20">
+      <div className='p-5 sm:p-0 mt-1'>
+        <div className=" mx-auto relative">
           <div className="border-l-2 mt-10">
             {Jobs.map((job, index) => (
               <div key={index} className="transform transition cursor-pointer hover:-translate-y-2 ml-10 relative flex items-center px-6 py-4 bg-blue-600 text-white rounded-md mb-10 flex-col md:flex-row space-y-4 md:space-y-0">
