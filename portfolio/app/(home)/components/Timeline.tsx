@@ -1,5 +1,5 @@
-import React from 'react'
-import Title from './Title'
+import React from 'react';
+import Title from './Title';
 
 export default function Timeline() {
   const Jobs = [
@@ -18,28 +18,30 @@ export default function Timeline() {
       profile: "Software Developer Intern",
       time: "Aug 2023 - December 2023"
     },
-  ]
+  ];
   return (
     <>
       <div className='py-16 p-5 sm:p-0'>
         <Title text='Experience🤺' className='flex flex-col items-center justify-center -rotate-6' />
+      </div>
+      <div className='p-5 sm:p-0 mt-2'>
+        <div className=" mx-auto relative py-20">
+          <div className="border-l-2 mt-10">
+            {Jobs.map((job, index) => (
+              <div key={index} className="transform transition cursor-pointer hover:-translate-y-2 ml-10 relative flex items-center px-6 py-4 bg-blue-600 text-white rounded-md mb-10 flex-col md:flex-row space-y-4 md:space-y-0">
+                <div className="w-5 h-5 bg-blue-600 absolute -left-10 transform -translate-x-2/4 rounded-full z-10 mt-2 md:mt-0"></div>
+                <div className="w-10 h-1 bg-blue-300 absolute -left-10 z-0"></div>
+                <div className="flex-auto">
+                  <h1 className="text-lg">{job.time }</h1>
+                  <h1 className="text-xl font-bold">{job.profile}</h1>
+                  <h3>{job.company}</h3>
+                </div>
+                
+              </div>
+            ))}
+          </div>
         </div>
-    <div className=' p-5 sm:p-0 mt-2'>
-
-         <ol  className="relative border-s border-gray-200 dark:border-gray-700">                  
-        {Jobs.map((job, key) => (
-          <li key={key} className="mb-10 ms-4">
-        <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-             <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">{ job.time}</time>
-             <h3 className="text-lg font-semibold text-gray-900 dark:text-white">{job.company}</h3>
-             <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">{ job.profile}</p>
-          </li>
-        
-        )
-          )}
-          </ol>
-</div>    
-
+      </div>
     </>
-  )
+  );
 }
