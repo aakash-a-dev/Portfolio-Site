@@ -2,7 +2,7 @@
 import React from 'react'
 import Title from './Title'
 import { HoverEffect } from '@/components/ui/card-hover-effect'
-import { SiDocker, SiFigma, SiGithub, SiMongodb, SiNextdotjs, SiNodedotjs, SiPostgresql, SiPrisma, SiReact, SiTailwindcss } from 'react-icons/si'
+import { SiCloudflare, SiDocker, SiFigma, SiGithub, SiLaravel, SiLinux, SiMongodb, SiNextdotjs, SiNodedotjs, SiPostgresql, SiPrisma, SiReact, SiShopify, SiTailwindcss, SiTypescript } from 'react-icons/si'
 
 function Skills() {
     const skills = [
@@ -14,7 +14,7 @@ function Skills() {
             text: "NextJS",
             Icon: SiNextdotjs,
         },{
-            text: "Tailwind CSS",
+            text: "TailwindCSS",
             Icon: SiTailwindcss,
         },
          {
@@ -34,11 +34,23 @@ function Skills() {
         {
             text: "Git & Github",
             Icon: SiGithub,
-        },{
+        },
+        {
             text: "Prisma",
             Icon: SiPrisma,
         },
-     
+        {
+            text: "Typescript",
+            Icon: SiTypescript,
+        },
+        {
+            text: "Laravel",
+            Icon: SiLaravel,
+        },
+        {
+            text: "Linux",
+            Icon: SiLinux,
+        },
     ]
   return (
       <div className='max-w-5xl mx-auto px-8 '>
