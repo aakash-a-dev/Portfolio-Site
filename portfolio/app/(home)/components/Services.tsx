@@ -10,8 +10,9 @@ export default function Services() {
      <div className='py-16 p-5 sm:p-0'>
         <Title text='I may offer you 👨🏼‍💻' className='flex flex-col items-center justify-center -rotate-6' />
       </div>
-      <div className='flex justify-evenly md:grid-cols-3 sm:grid-cols-1 py-4'>
-      <div className='w-1/4 py-8'>
+      
+      <div className=' grid grid-cols-3 md:grid-cols-3 sm:grid-cols-2 justify-evenly py-4'>
+      <div className='md:w-fit py-8'>
            <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900">
         <p className="text-base sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">
           Landing Page
@@ -33,17 +34,19 @@ export default function Services() {
         </button>
       </BackgroundGradient>
         </div>
-        <div className='w-1/4 py-8'>
+        <div className='md:w-fit py-8'>
            <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900">
         <p className="text-base sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">
-          Air Jordan 4 Retro Reimagined
+          Landing Page
         </p>
- 
-        <p className="text-sm text-neutral-600 dark:text-neutral-400">
-          The Air Jordan 4 Retro Reimagined Bred will release on Saturday,
-          February 17, 2024. Your best opportunity to get these right now is by
-          entering raffles and waiting for the official releases.
-        </p>
+              <ul className="text-sm text-neutral-600 dark:text-neutral-400 py-1 space-y-2">
+                <li>➡️One page Webpage</li>
+                <li>➡️Custom Design</li>
+                <li>➡️Social Media Integration</li>
+                <li>➡️Contact Us Section</li>
+                <li>➡️Delivery in 15 Days</li>
+                <li>➡️Clear Call to Action (CTA)</li>
+         </ul>
         <button className="rounded-full pl-4 pr-1 py-1 text-white flex items-center space-x-1 bg-black mt-4 text-xs font-bold dark:bg-zinc-800">
           <span>Buy now </span>
           <span className="bg-zinc-700 rounded-full text-[0.6rem] px-2 py-0 text-white">
@@ -52,17 +55,19 @@ export default function Services() {
         </button>
       </BackgroundGradient>
         </div>
-        <div className='w-1/4 py-8'>
+        <div className='md:w-fit py-8'>
            <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900">
         <p className="text-base sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">
-          Air Jordan 4 Retro Reimagined
+          Landing Page
         </p>
- 
-        <p className="text-sm text-neutral-600 dark:text-neutral-400">
-          The Air Jordan 4 Retro Reimagined Bred will release on Saturday,
-          February 17, 2024. Your best opportunity to get these right now is by
-          entering raffles and waiting for the official releases.
-        </p>
+              <ul className="text-sm text-neutral-600 dark:text-neutral-400 py-1 space-y-2">
+                <li>➡️One page Webpage</li>
+                <li>➡️Custom Design</li>
+                <li>➡️Social Media Integration</li>
+                <li>➡️Contact Us Section</li>
+                <li>➡️Delivery in 15 Days</li>
+                <li>➡️Clear Call to Action (CTA)</li>
+         </ul>
         <button className="rounded-full pl-4 pr-1 py-1 text-white flex items-center space-x-1 bg-black mt-4 text-xs font-bold dark:bg-zinc-800">
           <span>Buy now </span>
           <span className="bg-zinc-700 rounded-full text-[0.6rem] px-2 py-0 text-white">
@@ -70,8 +75,8 @@ export default function Services() {
           </span>
         </button>
       </BackgroundGradient>
-      </div>
-      </div>
+          </div>
+          </div>
       </>
   )
 }
