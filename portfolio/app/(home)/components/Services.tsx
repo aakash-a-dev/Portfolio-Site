@@ -45,7 +45,7 @@ export default function Services() {
                 <li>➡️ Analytics Reporting</li>
                 <li>➡️ Strategy Adjustments</li>
                 <li>➡️ Networking Outreach</li>
-                <li>➡️ Newsletter Channel Management</li>
+                <li>➡️ Newsletter Management</li>
          </ul>
         <button className="rounded-full pl-4 pr-1 py-1 text-white flex items-center space-x-1 bg-black mt-4 text-xs font-bold dark:bg-zinc-800">
           <span>Buy now </span>
