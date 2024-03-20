@@ -15,7 +15,7 @@ export default function Services() {
       <div className='md:w-fit py-8'>
            <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900">
         <p className="text-base sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">
-          Landing Page
+          Landing Page Creation
         </p>
               <ul className="text-sm text-neutral-600 dark:text-neutral-400 py-1 space-y-2">
                 <li>➡️ One page Webpage</li>
