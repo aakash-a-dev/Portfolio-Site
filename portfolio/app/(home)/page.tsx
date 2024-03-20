@@ -6,6 +6,7 @@ import Skills from './components/Skills'
 import Footer from './components/Footer'
 import Projects from './components/Projects'
 import Timeline from './components/Timeline'
+import Services from './components/Services'
 
 export default function page() {
   return (
@@ -24,6 +25,7 @@ export default function page() {
         <Projects />
         <div className='max-w-7xl mx-auto sm:p-0 lg:p-5'>
           <Timeline />
+          <Services/>
           </div>
         <Footer />
       </div>
