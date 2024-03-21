@@ -11,7 +11,7 @@ export default function Services() {
         <Title text='I may offer you 👨🏼‍💻' className='flex flex-col items-center justify-center -rotate-6' />
       </div>
       
-      <div className='grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 justify-between items-center place-items-center py-4'>
+      <div className='grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 justify-stretch items-center place-content-center py-4 '>
       <div className='md:w-fit py-8'>
            <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900">
         <p className="text-base sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">
