@@ -3,6 +3,7 @@ import React from 'react'
 import Title from './Title'
 import { BackgroundGradient } from '@/components/ui/background-gradient'
 import { TbSignRight } from 'react-icons/tb'
+import Link from 'next/link'
 
 export default function Services() {
   return (
@@ -26,12 +27,14 @@ export default function Services() {
                 <li>➡️ Clear Call to Action (CTA)</li>
          </ul>
         
-        <button className="rounded-full pl-4 pr-1 py-1 text-white flex items-center space-x-1 bg-black mt-4 text-xs font-bold dark:bg-zinc-800">
+              <Link href="https://rzp.io/l/JZKzO0Q">
+            <button className="rounded-full pl-4 pr-1 py-1 text-white flex items-center space-x-1 bg-black mt-4 text-xs font-bold dark:bg-zinc-800">
           <span>Buy now </span>
           <span className="bg-zinc-700 rounded-full text-[0.6rem] px-2 py-0 text-white">
            ₹8999
-          </span>
+                </span>
         </button>
+                </Link>
       </BackgroundGradient>
         </div>
         <div className='md:w-fit py-8'>
@@ -47,12 +50,14 @@ export default function Services() {
                 <li>➡️ Networking Outreach</li>
                 <li>➡️ Newsletter Management</li>
          </ul>
+          <Link href="https://rzp.io/l/8umhA88n">
         <button className="rounded-full pl-4 pr-1 py-1 text-white flex items-center space-x-1 bg-black mt-4 text-xs font-bold dark:bg-zinc-800">
-          <span>Buy now </span>
+              <span>Buy now </span>
           <span className="bg-zinc-700 rounded-full text-[0.6rem] px-2 py-0 text-white">
              ₹4999
-          </span>
+                </span>
         </button>
+                </Link>
       </BackgroundGradient>
         </div>
         <div className='md:w-fit py-8'>
@@ -68,12 +73,14 @@ export default function Services() {
                 <li>➡️ Delivery Will Be Decided</li>
                 <li>➡️ Prominent Call-to-Action (CTA)</li>
          </ul>
-        <button className="rounded-full pl-4 pr-1 py-1 text-white flex items-center space-x-1 bg-black mt-4 text-xs font-bold dark:bg-zinc-800">
+              <Link href="https://calendly.com/aakash-ar1213/30min">
+            <button className="rounded-full pl-4 pr-1 py-1 text-white flex items-center space-x-1 bg-black mt-4 text-xs font-bold dark:bg-zinc-800">
           <span>Buy now </span>
           <span className="bg-zinc-700 rounded-full text-[0.6rem] px-2 py-0 text-white">
             Book Appointment
-          </span>
+                </span>
         </button>
+                </Link>
       </BackgroundGradient>
           </div>
           </div>
