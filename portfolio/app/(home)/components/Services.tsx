@@ -27,7 +27,7 @@ export default function Services() {
                 <li>➡️ Clear Call to Action (CTA)</li>
          </ul>
         
-              <Link href="https://rzp.io/l/JZKzO0Q">
+              <Link target='_blank' href="https://rzp.io/l/JZKzO0Q">
             <button className="rounded-full pl-4 pr-1 py-1 text-white flex items-center space-x-1 bg-black mt-4 text-xs font-bold dark:bg-zinc-800">
           <span>Buy now </span>
           <span className="bg-zinc-700 rounded-full text-[0.6rem] px-2 py-0 text-white">
@@ -50,7 +50,7 @@ export default function Services() {
                 <li>➡️ Networking Outreach</li>
                 <li>➡️ Newsletter Management</li>
          </ul>
-          <Link href="https://rzp.io/l/8umhA88n">
+          <Link target='_blank' href="https://rzp.io/l/8umhA88n">
         <button className="rounded-full pl-4 pr-1 py-1 text-white flex items-center space-x-1 bg-black mt-4 text-xs font-bold dark:bg-zinc-800">
               <span>Buy now </span>
           <span className="bg-zinc-700 rounded-full text-[0.6rem] px-2 py-0 text-white">
@@ -73,7 +73,7 @@ export default function Services() {
                 <li>➡️ Delivery Will Be Decided</li>
                 <li>➡️ Prominent Call-to-Action (CTA)</li>
          </ul>
-              <Link href="https://calendly.com/aakash-ar1213/30min">
+              <Link target='_blank' href="https://calendly.com/aakash-ar1213/30min">
             <button className="rounded-full pl-4 pr-1 py-1 text-white flex items-center space-x-1 bg-black mt-4 text-xs font-bold dark:bg-zinc-800">
           <span>Buy now </span>
           <span className="bg-zinc-700 rounded-full text-[0.6rem] px-2 py-0 text-white">
